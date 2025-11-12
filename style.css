@@ -1,0 +1,273 @@
+/* ================ Сбросс стилей ================ */
+
+* {
+    padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+
+
+/* ОБЩИЕ СТИЛИ  */
+
+html, 
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: #191919;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    max-width: 1340px;
+    padding: 0 20px;
+    margin: 0 auto;
+    border: 1px solid rgb(37, 25, 145);
+}
+
+
+
+
+
+/* стили для Хедера  */
+
+.header {
+padding: 23px 0;
+
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    align-self: center;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    padding: 20px 0 20px 20px;
+}
+
+.menu-link {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 159%;
+    transition: 0.4s;
+}
+
+.menu-link:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+/* СТИЛИ first section  */
+
+.first {
+    padding: 40px 0;
+}
+
+.first-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.main-img {
+    max-width: 650px;
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+
+.first-info {
+    max-width: 530px;
+    align-self: flex-end;
+    margin-bottom: 130px;
+}
+
+
+.main-title {
+font-weight: 400;
+font-size: 70px;
+line-height: 88px;
+letter-spacing: 3.2px;
+color: #FFFFFF;
+margin-bottom: 90px;
+}
+
+.next {
+font-weight: 400;
+font-size: 75px;
+line-height: 88px;
+letter-spacing: 3.2px;
+}
+
+.level {
+font-weight: 700;
+font-size: 80px;
+line-height: 88px;
+letter-spacing: 3.2px;
+}
+
+/* МУЗЫКАЛЬНЫЕ ПЛАТФОРМЫ  */
+
+.music-platforms {
+    padding: 0 22px;
+}
+
+.title-music {
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #FFFFFF;
+margin-bottom: 16px;
+}
+
+.music {
+    display: flex;
+    gap: 17px;
+}
+
+.music-link img {
+    transition: 0.5s;
+    width: 32px;
+    height: 32px;
+}
+
+.music-link img:hover {
+    transform: scale(1.1)
+}
+
+
+
+
+
+/* ВТОРАЯ СЕКЦИЯ  */
+
+
+.LE {
+    padding: 100px 0 160px;
+}
+
+.LE-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 64px;
+}
+
+.LE-title {
+font-weight: 400;
+font-size: 64px;
+line-height: 79.2px;
+letter-spacing: 2.88px;
+
+}
+
+.btn {
+    background-color: #118DA8;
+    border: none;
+    border-radius: 6px;
+    color: #FFFFFF;
+font-weight: 400;
+font-size: 17px;
+line-height: 27px;
+padding: 12px 20px;
+transition: background-color 0.3s ease;
+cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0c6c82;
+}
+
+
+
+/* карточки  */
+
+
+.card-wrapper {
+display: flex;
+flex-direction: column;
+gap: 60px;
+}
+
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 53px;
+    background-color: #000000;
+    padding: 40px;
+    border-radius: 32px;
+}
+
+.card-img {
+    max-width: 389px;
+    width: 100%;
+}
+
+.card-info {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.litle {
+display: inline-block;
+background-color: #191919;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+padding: 0 16px;
+border-radius: 6px;
+margin-bottom: 48px;
+}
+
+.episode{
+display: block;
+color: #118DA8;
+font-weight: 400;
+font-size: 17px;
+line-height: 27px;
+margin-bottom: 18px;
+}
+
+
+.card-title {
+font-weight: 400;
+font-size: 64px;
+line-height: 70.4px;
+letter-spacing: 2.56px;
+margin-bottom: 28px;
+}
+
+.card-text {
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+color:  #FFFFFFB2;
+margin-bottom: 20px;
+}
+
