@@ -271,3 +271,248 @@ color:  #FFFFFFB2;
 margin-bottom: 20px;
 }
 
+
+
+
+
+
+
+
+
+
+ /* ---------- третья секция Джейкоб ----- */
+
+
+ .jacob {
+    padding: 100px 0;
+ }
+
+ .jacob-wrapper {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .jacob-info {
+    align-self: center;
+    max-width: 590px;
+ }
+
+ .circle-link {
+    width: 112px;
+    height: 112px;
+    background-color: #118da8;
+    border-radius: 50%;
+    margin-bottom: 20px;
+ }
+
+ .arrow {
+    /* transform: rotate(90deg); */
+ }
+
+
+
+
+ .meet {
+color: #118DA8;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+display: block
+ }
+
+
+ .jacob-paulaner {
+font-weight: 400;
+font-size: 65px;
+line-height: 79.2px;
+letter-spacing: 2.88px;
+margin-bottom: 28px;
+ }
+
+
+ .jacob-text {
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+color: #FFFFFFB2;
+margin-bottom: 34px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* --------- CЕКЦИЯ ИНПУТА ФОРМЫ -------------- */
+
+.forma {
+    padding: 100px 0;
+}
+
+.forma-wrapper {
+    background-color: #000;
+    border-radius: 32px;
+    display: flex;
+    padding: 60px 60px 75px;
+    justify-content: space-between;
+}
+
+.inf-form {
+
+}
+
+.form-span {
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: #118da8;
+}
+
+.form-title {
+max-width: 430px;
+font-weight: 400;
+font-size: 72px;
+line-height: 110%;
+letter-spacing: 0.04em;
+color: #fff;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 522px;
+    width: 100%;
+}
+
+.form input{
+padding: 26px 20px;
+border-radius: 6px;
+border: 1px solid #191919;
+}
+
+input, input::placeholder {
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+color: rgba(255, 255, 255, 0.7);
+font-family: inherit;
+background-color:#191919;
+}
+
+.form button {
+    width: fit-content;
+}
+
+
+
+
+
+
+/* ----------- ОТЗЫВЫ =================== */
+
+
+.reviews-section {
+    padding: 100px 0;
+}
+
+.reviews-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px
+}
+
+.review {
+    background-color: #000;
+    max-width: 423px;
+    border-radius: 32px;
+    padding: 55px 55px 50px 50px;
+    flex: 1 1 calc(33.333% - 32px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/* .rating {
+
+} */
+
+.review-title{
+font-weight: 400;
+font-size: 36px;
+line-height: 1.2;
+max-width: 100%;
+}
+
+.review-author {
+font-weight: 400;
+font-size: 24px;
+line-height: 1.2;
+color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+
+
+
+/* ============= ФУТЕР ============= */
+
+
+.footer {
+    padding: 100px 0;
+}
+
+
+.footer-wrapper{
+    display: flex;
+    gap: 16px;
+}
+
+.footer-brand {
+    flex-grow: 2;
+}
+
+.footer-img {
+    margin-bottom: 20px;
+}
+
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+.foot-navigation {
+    flex-grow: 1;
+}
+
+
+
+.footer-nav {
+font-weight: 400;
+font-size: 17px;
+line-height: 27px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+
+.music {
+    flex-grow: 2;
+}
